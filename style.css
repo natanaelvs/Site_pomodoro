@@ -1,0 +1,47 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#pomodoro-container {
+    text-align: center;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#timer-display {
+    font-size: 6em; /* 6 vezes o tamanho da fonte normal */
+    margin: 20px 0;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#start-btn {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+#pause-btn {
+    background-color: #ff9800; /* Laranja */
+    color: white;
+}
+
+#reset-btn {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+}
+
